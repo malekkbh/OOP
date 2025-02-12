@@ -20,6 +20,7 @@ public class Main {
         zoo[2] = dog ;
         zoo[3] = lion ;
 
+        System.out.println((((Moftares) lion).compareTo((Moftares) dog)));
         System.out.println("******");
 
         for (int i = 0; i < zoo.length; i++) {

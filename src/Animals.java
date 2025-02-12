@@ -1,8 +1,8 @@
 public abstract class Animals implements Moves {
 
-    private int age;
-    private String foodType;
-    private String type;
+    protected int age;
+    protected String foodType;
+    protected String type;
 
     public Animals(int age, String foodType, String type) {
         this.age = age;
