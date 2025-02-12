@@ -29,6 +29,7 @@ public class Main {
                     System.out.println("watch out!! ");
                 }
                animal.eat();
+                animal.speedUp();
             }
         }
     }

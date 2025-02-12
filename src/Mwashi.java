@@ -1,4 +1,5 @@
-public class Mwashi extends Animals {
+public class Mwashi extends Animals
+        implements Eating<Plants , String> {
 
     private int stomach;
 
@@ -14,5 +15,20 @@ public class Mwashi extends Animals {
     @Override
     public void eat() {
         System.out.println("mwashi eat");
+    }
+
+    @Override
+    public void speedUp() {
+        System.out.println("mwashi speedUp");
+    }
+
+    @Override
+    public void eat(Plants food) {
+
+    }
+
+    @Override
+    public String digest() {
+        return "";
     }
 }

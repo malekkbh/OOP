@@ -1,4 +1,4 @@
-public abstract class Animals {
+public abstract class Animals implements Moves {
 
     private int age;
     private String foodType;
@@ -22,5 +22,18 @@ public abstract class Animals {
         System.out.println("Animal breathIn");
     }
 
+    @Override
+    public void speedUp() {
+        System.out.println("Animals speedUp");
+    }
 
+    @Override
+    public void slowDown() {
+        System.out.println("Animals slowDown");
+    }
+
+    @Override
+    public int getSpeed() {
+        return 0;
+    }
 }
